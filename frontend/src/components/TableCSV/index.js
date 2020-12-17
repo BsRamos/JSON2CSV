@@ -6,7 +6,10 @@ function TableCSV({ csvText }) {
   const rows = csvText.split('\n');
   const keys = rows[0].split(',');
   const itens = [];
-  rows.forEach(element => itens.push(element.split(',')));
+  console.log(rows);
+  rows.forEach(element => {
+    itens.push(element.split(/,[^\s]/));
+  });
   itens.splice(itens.length - 1, 1);
   itens.splice(0, 1);
 
