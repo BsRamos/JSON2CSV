@@ -8,7 +8,7 @@ function TableCSV({ csvText }) {
   const itens = [];
   console.log(rows);
   rows.forEach(element => {
-    itens.push(element.split(/,[^\s]/));
+    itens.push(element.split(','));
   });
   itens.splice(itens.length - 1, 1);
   itens.splice(0, 1);
