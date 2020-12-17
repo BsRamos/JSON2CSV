@@ -1,0 +1,53 @@
+.inputFieldStyle{
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.inputStyle{
+  height: 250px;
+  width: 400px;
+  border-radius: 0 0 15px 15px;
+  color:antiquewhite;
+  background-color: #252525;
+  outline: none;
+  resize: none;
+  text-align: top;
+  padding: 20px;
+}
+::-webkit-input-placeholder {
+  color:antiquewhite;
+}
+.textStyle{
+  width: 400px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  background-color : rgb(100, 177, 100);
+  border-radius: 15px 15px 0 0;
+}
+
+.textInfoStyle{
+  width: 400px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.btnTable{
+  height: 50px;
+  width: 200px;
+  margin-left: 105px;
+  margin-top: 20px;
+  background-color: #252525;
+  border-radius: 5px;
+  color: rgb(100, 177, 100);
+  font-weight: 500;
+}
+
+.textDirection{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}

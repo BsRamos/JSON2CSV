@@ -1,0 +1,12 @@
+.toastStyle{
+  background-color: #252525;
+  border-radius: 20px;
+}
+
+.messageText{
+  display: flex;
+  flex: 1;
+
+  justify-content: center;
+  color: rgb(252, 70, 70);
+}

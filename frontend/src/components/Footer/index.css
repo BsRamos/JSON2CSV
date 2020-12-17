@@ -1,0 +1,15 @@
+.footer{
+  position:fixed;
+  bottom: 0%;
+  left: 0%;
+  height: 25px;
+  width: 350px;
+  border-radius: 0 10px 0 0;
+  background-color: #252525;
+  color: rgb(100, 177, 100);
+}
+
+.footer a{
+  margin: 0px 4px 0px 4px;
+  color:  rgb(252, 70, 70);
+}

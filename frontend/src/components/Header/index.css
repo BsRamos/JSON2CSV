@@ -1,0 +1,13 @@
+.btnBack{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  border: none;
+  background-color: lightgray;
+}
+
+.textTable{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}

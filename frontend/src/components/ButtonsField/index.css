@@ -1,0 +1,21 @@
+.buttonsField{
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.buttonStyle {
+  height: 50px;
+  width: 200px;
+  outline: none;
+  border-radius: 5px;
+  background-color: #252525;
+  color:  rgb(100, 177, 100);
+  font-weight: 500;
+
+}
+
+.buttonStyle + .buttonStyle{
+  margin-top: 20px;
+  color:  rgb(252, 70, 70);
+}
