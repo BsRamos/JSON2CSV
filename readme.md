@@ -9,6 +9,8 @@
 #
 ## INSTALAÇÃO
 ### 1. Clone este diretório do GitHub
+<br/>
+
 ### 2. Abra o diretório clonado no terminal de sua preferência e execute o comando 
 ~~~cmd
 yarn
@@ -18,6 +20,7 @@ yarn
 npm install
 ~~~
 ### de acordo com o gerenciador de pacotes de sua preferência
+<br/>
 
 ### 3. execute o comando 
 ~~~cmd
@@ -28,6 +31,8 @@ cd backend
 yarn dev:server
 ~~~
 ### após isso o seu servidor backend estará rodando na porta 3333 do seu localhost. 
+<br/>
+
 ### 4. execute o comando 
 ~~~cmd
 cd frontend
